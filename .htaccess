@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^attarsouk\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.attarsouk\.com$
+RewriteRule ^Attarsouk\.com$ "https\:\/\/attarsouk\.com\/" [R=301,L]
+
